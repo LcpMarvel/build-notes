@@ -18,12 +18,14 @@ This repository includes a portable `plugin.json`, a Codex compatibility manifes
 
 ```bash
 codex plugin marketplace add .
+codex plugin add build-notes@build-notes
 ```
 
-This adds the local repository as a marketplace source; then install **Build Notes** in the Plugins Directory. Once the repository is public, use:
+The first command adds this local repository as a marketplace source; the second installs the plugin. Both commands have been checked with this checkout. Once the repository is public, use:
 
 ```bash
 codex plugin marketplace add LcpMarvel/build-notes
+codex plugin add build-notes@build-notes
 ```
 
 See the [OpenAI plugin packaging guide](https://developers.openai.com/plugins/build/plugins) for installation details.

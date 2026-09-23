@@ -24,12 +24,14 @@ X 帖子链接 + 本地发布记录
 
 ```bash
 codex plugin marketplace add .
+codex plugin add build-notes@build-notes
 ```
 
-这一步只把本地仓库加入 Codex 的插件来源；随后在插件目录中安装 **Build Notes**。仓库公开后，远程安装命令是：
+第一条把本地仓库加入插件来源，第二条安装插件；这两条已在当前工作区验证。仓库公开后，远程安装命令是：
 
 ```bash
 codex plugin marketplace add LcpMarvel/build-notes
+codex plugin add build-notes@build-notes
 ```
 
 安装和刷新流程见 [OpenAI 插件文档](https://developers.openai.com/plugins/build/plugins)。
