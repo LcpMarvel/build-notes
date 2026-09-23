@@ -1,0 +1,19 @@
+{
+  "name": "build-notes",
+  "version": "0.1.0",
+  "description": "Share Codex discoveries and build experiences on X through a dedicated content desk.",
+  "author": {
+    "name": "LcpMarvel"
+  },
+  "repository": "https://github.com/LcpMarvel/build-notes",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Build Notes",
+    "shortDescription": "Share Codex discoveries and build notes on X.",
+    "longDescription": "A source task prepares grounded notes and hands them to an X content desk for drafting, publishing, and tracking.",
+    "developerName": "LcpMarvel",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Help me set up a Build Notes desk for my X account."
+  }
+}
